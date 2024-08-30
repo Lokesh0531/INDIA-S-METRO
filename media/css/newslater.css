@@ -6,3 +6,34 @@
     padding: 20px;
     border-radius: 10px;
 }
+
+.scroll-section {
+    max-height: 100px;
+    overflow-y: auto;
+  }
+
+  .dropbutton{
+
+    width: 98%;
+    margin: 1%;
+    padding: 10px;
+    
+    border-radius: 15px;
+
+  }
+
+  .pdfbox{
+    border: solid black 1px;
+    border-radius: 50px;
+    
+    margin: 30px;
+  }
+  .headahe{
+    font-family: ubuntu_lightitalic;
+  }
+
+  .dropbutton:hover{
+    background-color: #55528D;;
+
+  }
+

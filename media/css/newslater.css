@@ -33,7 +33,8 @@
   }
 
   .dropbutton:hover{
-    background-color: #55528D;;
+    background-color: #55528D;
+    color: white;
 
   }
 

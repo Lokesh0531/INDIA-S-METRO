@@ -30,7 +30,7 @@
                           <ol class="breadcrumb p-3 bg-body-tertiary rounded-3">
                               <li class="breadcrumb-item"><a href="/">Home</a></li>
                               <li class="breadcrumb-item"><a href="#">Media</a></li>
-                              <li class="breadcrumb-item active" aria-current="page">News Letters</li>
+                              <li class="breadcrumb-item active" aria-current="page">News Letters <div style="margin-top: 5%;"></div></li>
                             </ol>
                      </nav>
               </div>
@@ -38,7 +38,7 @@
        
         </div>
    </div>
-
+   
 
    <!-- ------------------- -->
    <div class="container">
@@ -226,6 +226,170 @@
  <!-- Year 2022 End -->
 
 
+ <!-- Year 2021 Start -->
+ <button class="dropbutton" onclick="toggleDiv2021()"><h3>2021</h3></button>
+ <div id="myDiv2021">
+ 
+     <div class="container">
+       <div class="row">
+         <!--First Pdf Start-->
+         <div class="col-lg-3 pdfbox"> 
+           <div class="container">
+             <div class="row">
+               <div class="col-md-12">
+                 <img src="image/mahametrologo.png" alt="">
+               </div>
+             </div>
+           </div>
+           <div class="container">
+             <div class="row">
+               <div class="col-md-12">
+                 <a href="doc/January-Newsletter-2023.pdf" target="_blank"><h3>April-2021</h3></a>
+               </div>
+             </div>
+           </div>
+           
+         </div><!--First Pdf end-->
+ 
+         <!--  -->
+ 
+ 
+ 
+         <div class="col-lg-3 pdfbox"> 
+           <div class="container">
+             <div class="row">
+               <div class="col-md-12">
+                 <img src="image/mahametrologo.png" alt="">
+               </div>
+             </div>
+           </div>
+           <div class="container">
+             <div class="row">
+               <div class="col-md-12">
+                 <a href="doc/January-Newsletter-2023.pdf" target="_blank"><h3>June-2021</h3></a>
+               </div>
+             </div>
+           </div>
+           
+         </div>
+         <!--  -->
+ 
+ 
+          <!--  -->
+ 
+ 
+ 
+          <div class="col-lg-3 pdfbox"> 
+           <div class="container">
+             <div class="row">
+               <div class="col-md-12">
+                 <img src="image/mahametrologo.png" alt="">
+               </div>
+             </div>
+           </div>
+           <div class="container">
+             <div class="row">
+               <div class="col-md-12">
+                 <a href="doc/January-Newsletter-2023.pdf" target="_blank"><h3>July-2021</h3></a>
+               </div>
+             </div>
+           </div>
+           
+         </div>
+         <!--  -->
+ 
+     
+ 
+       </div>
+     </div>
+ 
+ </div>
+  <!-- Year 2021 end -->
+
+
+
+  <!-- Year 2020 Start -->
+  <button class="dropbutton" onclick="toggleDiv2020()"><h3>2020</h3></button>
+  <div id="myDiv2020">
+  
+      <div class="container">
+        <div class="row">
+          <!--First Pdf Start-->
+          <div class="col-lg-3 pdfbox"> 
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="image/mahametrologo.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="doc/January-Newsletter-2023.pdf" target="_blank"><h3>April-2020</h3></a>
+                </div>
+              </div>
+            </div>
+            
+          </div><!--First Pdf end-->
+  
+          <!--  -->
+  
+  
+  
+          <div class="col-lg-3 pdfbox"> 
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="image/mahametrologo.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="doc/January-Newsletter-2023.pdf" target="_blank"><h3>June-2020</h3></a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <!--  -->
+  
+  
+           <!--  -->
+  
+  
+  
+           <div class="col-lg-3 pdfbox"> 
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="image/mahametrologo.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="doc/January-Newsletter-2023.pdf" target="_blank"><h3>July-2020</h3></a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <!--  -->
+  
+      
+  
+        </div>
+      </div>
+  
+  </div>
+  <!-- Year 2020 end -->
+
+
+
 
 
 
@@ -241,7 +405,7 @@
       <!-- TP End -->
 
       <!-- Main Containt End -->
-
+      <div style="margin-top: 10%;"></div>
         <!-- Footer -->
 <footer
 class="text-center text-lg-start text-white"
@@ -386,6 +550,8 @@ style="background-color: #45526e"
 </div>
 <!-- End of .container -->
 </footer>
+
+
 <!-- footer end -->
        <!-- Script Stard -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -402,6 +568,24 @@ style="background-color: #45526e"
 
 function toggleDiv2022() {
     var x = document.getElementById("myDiv2022");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function toggleDiv2021() {
+    var x = document.getElementById("myDiv2021");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function toggleDiv2020() {
+    var x = document.getElementById("myDiv2020");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {

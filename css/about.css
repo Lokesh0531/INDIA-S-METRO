@@ -1,0 +1,11 @@
+.container-nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.nav-a{
+    display: flex;
+    position: relative;
+    padding: 15px;
+}

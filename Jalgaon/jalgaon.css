@@ -1,11 +1,37 @@
-/* .box{
-    box-shadow: 2px 2px 2px black;
+/* body{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 } */
-
-.bootom_other_info{
-
-}
 
 .heading_bottom{
     color: #54528D;
 }
+    h1,p{
+        color: black;
+    }
+
+    .carousel-caption {
+      position: absolute;
+      top: 80%;
+      transform: translateY(-50%);
+      text-align: left;
+    }
+    .carousel-caption h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .carousel-caption p {
+      font-size: 1.2rem;
+    }
+
+    .marque{
+      display: flex;
+      background-color: #3C3C43;
+      /* height: 50px; */
+      line-height: 1.6em;
+      color: #D9CCED;
+      align-items: center;
+    }
+
+    

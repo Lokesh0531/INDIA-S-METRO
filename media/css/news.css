@@ -63,3 +63,9 @@
 .icon-contact{
     width: 2rem;
 }
+
+para{
+    p{
+        margin: 2%;
+    }
+}

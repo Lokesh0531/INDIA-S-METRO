@@ -4,8 +4,34 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.nav-a{
-    display: flex;
-    position: relative;
-    padding: 15px;
+
+.h2{
+    background:rgba(134, 171, 255, 0.914);
+}
+.para1{
+    font-weight: 500;
+    font-size: 24px;
+
+    
+}
+.para2{
+    font-family: serif;
+     }
+
+.vision-mission{
+margin-left: 20%;
+position: absolute;
+}
+.a-metro{
+    margin-left: 30%;
+    padding-top: 5%;
+}
+.vision-mission> h2{
+
+    margin-left: 30%;
+    padding-top: 5%;
+}
+.tbl{
+margin-left: 20%;
+position: absolute;
 }

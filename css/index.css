@@ -7,8 +7,7 @@
    margin-top: -60%;
    margin-left: 15%;
 }
-.wellcome{
-font-weight: 900;
-margin-top: -70;
-margin-left: 15;
+.carousel-item active{
+    width: 100%;
+    height: 50%;
 }

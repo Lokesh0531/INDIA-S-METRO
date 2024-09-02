@@ -40,3 +40,15 @@
     color: white;
     margin-top: -2%;
 }
+.vw{
+
+    a{
+        border: solid black 1px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-style: bold;
+
+    }
+    
+}

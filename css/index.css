@@ -23,7 +23,7 @@
 }
 
 .foot{
-    margin-top: 100%;
+    margin-top: 15%;
 }
 .w2{
     color: white;
@@ -40,15 +40,15 @@
     color: white;
     margin-top: -2%;
 }
-.vw{
-
-    a{
-        border: solid black 1px;
-    border-radius: 10px;
-    text-align: center;
-    color: black;
-    font-style: bold;
-
-    }
-    
+.btnown{
+    border:  solid black 2px;
+}
+#btnown1{
+    border: solid black 1px;
+    padding: 4px;
+    border-radius: 5px;
+}
+#btnown1:hover{
+    color: white;
+    background-color: black;
 }

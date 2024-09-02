@@ -2,3 +2,13 @@
     height: 50%;
     width: 100%;
 }
+.home-logo{
+   width: 50%;
+   margin-top: -60%;
+   margin-left: 15%;
+}
+.wellcome{
+font-weight: 900;
+margin-top: -70;
+margin-left: 15;
+}

@@ -1,3 +1,7 @@
+.body{
+    position: sticky;
+}
+
 .marque{
     display: flex;
     background-color: #3C3C43;
@@ -34,4 +38,60 @@
 
 .icon-contact{
     width: 2rem;
+}
+
+.corner_round_box{
+    border-radius: 10px;
+}
+
+.icon-new{
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.round-text-1{
+    text-decoration: none;
+}
+
+.round-box-1:hover{
+    box-shadow: 0px 2px 4px 2px rgba(183, 189, 203, 0.3);
+    background-color: #e3f8e7;
+    border-radius: 10px;
+}
+
+.round-box-2:hover{
+    box-shadow: 0px 2px 4px 2px rgba(183, 189, 203, 0.3);
+    background-color: #e3f2f8;
+    border-radius: 10px;
+}
+
+.round-box-3:hover{
+    box-shadow: 0px 2px 4px 2px rgba(183, 189, 203, 0.3);
+    background-color: #eae3f8;
+    border-radius: 10px;
+}
+
+.round-box-4:hover{
+    box-shadow: 0px 2px 4px 2px rgba(183, 189, 203, 0.3);
+    background-color: #e3f2f8;
+    border-radius: 10px;
+}
+
+.light_purple_border{
+    border: solid #e2baf8;
+}
+
+.light_purple_border2{
+    border: solid #82b8ff;
+}
+
+.cursor:hover{
+    cursor: pointer;
+}
+
+.map-part{
+    box-shadow: 0px 2px 4px 2px rgba(183, 189, 203, 0.3);
+    border: solid #858585;
+    border-radius: 10px;
 }

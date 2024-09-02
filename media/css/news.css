@@ -64,8 +64,8 @@
     width: 2rem;
 }
 
-para{
+.para{
     p{
-        margin: 2%;
+        padding: 4%;
     }
 }

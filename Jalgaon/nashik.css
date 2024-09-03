@@ -98,6 +98,17 @@
 }
 
 
+@include media-breakpoint-up(sm) {
+    .custom-class {
+      display: block;
+    }
+  }
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
     .helpline {
       display: none;
@@ -106,23 +117,20 @@
     }
 
     .whatsApp{
-        display: none;
+        /* display: none; */
+        width: 40%;
         
+    }
+
+    .whatsApp-second-logo{
+        display: none;
     }
 
     .dropdown{
         display: none;
     }
 
-    .G20{
+    /* .G20{
     width: 80000%rem;
-    }
+    } */
   }
-
-  @media only screen and (max-width: 769px) {
-    .whatsApp{
-        display: none;
-        
-    }
-  }
-

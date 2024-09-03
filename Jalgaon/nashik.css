@@ -5,7 +5,6 @@
 .marque{
     display: flex;
     background-color: #3C3C43;
-    /* height: 50px; */
     line-height: 1.6em;
     color: #D9CCED;
     align-items: center;
@@ -26,9 +25,10 @@
     width: 200px;
 }
 
-.G20{
+
+/* .G20{
     width: 22rem;
-}
+} */
 
 .explore{
     text-align: center;

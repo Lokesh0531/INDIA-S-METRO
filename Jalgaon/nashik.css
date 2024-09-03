@@ -17,12 +17,12 @@
 }
 
 .whatsApp{
-    width: 200px;
+    width: 100%;
     
 }
 
 .helpline{
-    width: 200px;
+    width: 100%;
 }
 
 
@@ -101,6 +101,8 @@
 @media only screen and (max-width: 600px) {
     .helpline {
       display: none;
+      
+      
     }
 
     .whatsApp{
@@ -111,6 +113,10 @@
     .dropdown{
         display: none;
     }
+
+    .G20{
+    width: 80000%rem;
+    }
   }
 
   @media only screen and (max-width: 769px) {
@@ -119,3 +125,4 @@
         
     }
   }
+

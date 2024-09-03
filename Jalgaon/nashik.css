@@ -96,3 +96,26 @@
     border: solid #858585;
     border-radius: 10px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .helpline {
+      display: none;
+    }
+
+    .whatsApp{
+        display: none;
+        
+    }
+
+    .dropdown{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 769px) {
+    .whatsApp{
+        display: none;
+        
+    }
+  }

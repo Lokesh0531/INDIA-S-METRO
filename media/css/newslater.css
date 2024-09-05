@@ -28,13 +28,14 @@
     max-width: 100%;
     margin-left: 10px;
   }
-  .headahe{
-    font-family: ubuntu_lightitalic;
-  }
+  
 
   .dropbutton:hover{
     background-color: #55528D;
     color: white;
 
   }
-
+#lblHeading{
+  font-size: 6rem;
+  color: #6351ce;
+}

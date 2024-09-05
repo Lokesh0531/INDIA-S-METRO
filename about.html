@@ -108,22 +108,22 @@
    
     
         <!-- Main section  start -->
-      <div class="container-fluid">
+      <div class="container">
 
             <!-- Button section  start -->
           <div class="container ">
-                  <p class="d-flex justify-content-evenly mx-5">
-                    <a class="btn btn-primary bt" data-bs-toggle="collapse" href="#About" role="button" aria-expanded="false" aria-controls="collapseExample">
-                      About Maha Metro
+                  <p class="d-flex justify-content-evenly">
+                    <a class="btn btn-primary bt m-1" data-bs-toggle="collapse" data-bs-target=".multi-collapse" href="#About" role="button" aria-expanded="false" aria-controls="About">
+                      About
                     </a>
-                    <a class="btn btn-primary bt" data-bs-toggle="collapse" href="#Board" role="button" aria-expanded="false" aria-controls="collapseExample">
-                      Board of Directors
+                    <a class="btn btn-primary bt m-1" data-bs-toggle="collapse" data-bs-target=".multi-collapse" href="#Board" role="button" aria-expanded="false" aria-controls="Board">
+                    Directors
                     </a>
-                    <a class="btn btn-primary bt" data-bs-toggle="collapse" href="#Map" role="button" aria-expanded="false" aria-controls="collapseExample">
-                      Location & Sitemap
+                    <a class="btn btn-primary bt m-1" data-bs-toggle="collapse" data-bs-target=".multi-collapse" href="#Map" role="button" aria-expanded="false" aria-controls="Map">
+                    Map
                     </a>
-                    <a class="btn btn-primary bt" data-bs-toggle="collapse" href="#report" role="button" aria-expanded="false" aria-controls="collapseExample">
-                      Annual Report
+                    <a class="btn btn-primary bt m-1" data-bs-toggle="collapse" data-bs-target=".multi-collapse" href="#Report" role="button" aria-expanded="false" aria-controls="ReportS">
+                    Report
                     </a>
                   </p>
           </div>
@@ -131,33 +131,43 @@
 
 
             <!-- about maha metro section start -->
-        <div class="collapse show container" id="About">
+        <div class="collapse show container multi-collapse" id="About">
           <div class="card card-body ">
             <h3 class="text-center  bg-info text-dark p-2 m-2">About Maha Metro</h3>
             <p class="text-center px-5" ><b>Maharashtra Metro Rail Corporation Limited (MAHA-METRO), is a 50:50 jointly owned company of Government of India and Government of Maharashtra.</b></p>
             <p class="text-center px-5">Welcome to Maha Metro, your gateway to a world-class, energy-efficient metro rail system. Committed to enhancing the quality of urban life, Maha Metro offers safe, reliable, and eco-friendly transportation, connecting communities and promoting sustainable development. Our cutting-edge infrastructure and services are designed to make your journey seamless, comfortable, and convenient. Maha Metro is dedicated to providing an exceptional transit experience while driving progress and innovation across the region.</p>
             <br><br>
-                  <!-- img + info section start -->
-            <div class="container flex1">
-                  <div class="card " style="width: 18rem;">
-                    <img src="/img/Pune-Metro.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Pune Metro is a mass rapid transit system serving the city of Pune, India. The system comprises 3 lines with a combined length of 54.14 km (33.64 mi), of which 24.12 km (14.99 mi) on two lines are operational as of August 2024.</p>
-                    </div>
-                  </div>
-                  <div class="card " style="width: 18rem;">
-                    <img src="/img/sydney-metro.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">The Sydney Metro is a fully automated rapid transit rail system in Sydney, New South Wales, Australia. It currently consists of the Metro North West & Bankstown Line, running between Tallawong and Sydenham and consisting of 21 stations on 52 km (32 mi) of twin tracks, mostly underground.</p>
-                    </div>
-                  </div>
-                  <div class="card " style="width: 18rem;">
-                    <img src="/img/Mumbai-metro.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">The Mumbai Metro is the sixth longest operational metro network in India with an operational length of 46.4 km (28.8 mi) as of January 2023. When completed, the core system will comprise sixteen high-capacity metro railway lines, spanning a total of more than 523 kilometres</p>
-                    </div>
-                  </div>
-            </div>
+                      <!-- img + info section start -->
+                        <div class="container">
+                          <div class="row">
+                                <div class="col-md-4 pb-2 mb-3">
+                                  <div class="card " style="width: 18rem;">
+                                    <img src="/img/Pune-Metro.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">Pune Metro is a mass rapid transit system serving the city of Pune, India. The system comprises 3 lines with a combined length of 54.14 km (33.64 mi), of which 24.12 km (14.99 mi) on two lines are operational as of August 2024.</p>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="col-md-4 pb-2 mb-3">
+                                  <div class="card " style="width: 18rem;">
+                                    <img src="/img/sydney-metro.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">The Sydney Metro is a fully automated rapid transit rail system in Sydney, New South Wales, Australia. It currently consists of the Metro North West & Bankstown Line, running between Tallawong and Sydenham and consisting of 21 stations on 52 km (32 mi) of twin tracks, mostly underground.</p>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="col-md-4 pb-2 mb-3">
+                                  <div class="card " style="width: 18rem;">
+                                    <img src="/img/Mumbai-metro.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">The Mumbai Metro is the sixth longest operational metro network in India with an operational length of 46.4 km (28.8 mi) as of January 2023. When completed, the core system will comprise sixteen high-capacity metro railway lines, spanning a total of more than 523 kilometres</p>
+                                    </div>
+                                  </div>
+                            </div>
+                          </div>   
+                        </div>
                    <!-- img + info section end -->
             
             <div class="row border">
@@ -179,7 +189,7 @@
             <!-- about maha metro section end -->
 
           <!-- Board of Directors section start -->
-        <div class="collapse" id="Board">
+        <div class="collapse multi-collapse" id="Board">
           <div class="card card-body">
             <h3 class="text-center  bg-info text-dark">Board of Directors</h3>
             <table class="table table-striped align-middle">
@@ -370,7 +380,7 @@
           <!-- Board of Directors section end -->
 
           <!--  Location & Sitemap section start -->
-        <div class="collapse" id="Map">
+        <div class="collapse multi-collapse" id="Map">
           <div class="card card-body">
             <h3 class="text-center  bg-info text-dark p-2 m-2">Location & Sitemap</h3>
             <img src="/img/map.png" alt="map">
@@ -379,7 +389,7 @@
           <!--  Location & Sitemap section end -->
 
             <!--  report section start -->
-          <div class="collapse" id="report">
+          <div class="collapse multi-collapse" id="Report">
             <div class="card card-body">
               <h3 class="text-center  bg-info text-dark p-2 m-2"> Annual Report</h3>
                 <div class="d-grid gap-2 col-6 mx-auto">
@@ -396,8 +406,7 @@
             </div>
           </div>
             <!--  report section end -->
-
-        
+              
       </div>
         <!-- Main section End -->
      

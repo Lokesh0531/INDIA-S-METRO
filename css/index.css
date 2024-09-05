@@ -30,11 +30,12 @@
     align-items: center;
 }
 .mm{
-    font-size: 3rem;
+    font-size: 2.2rem;
     color: orange;
 }
 .subheading1{
-    color: white;
+    color: rgb(244, 244, 23);
+    font-size: 1rem;
 }
 .subheading2{
     color: white;

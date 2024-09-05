@@ -25,11 +25,6 @@
     width: 100%;
 }
 
-
-/* .G20{
-    width: 22rem;
-} */
-
 .explore{
     text-align: center;
     margin-top: 1rem;
@@ -98,39 +93,13 @@
 }
 
 
-@include media-breakpoint-up(sm) {
-    .custom-class {
-      display: block;
-    }
+
+
+
+
+@media only screen and (max-width:750px) {
+ 
+  .logo-g20-section{
+    display: none;
   }
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-    .helpline {
-      display: none;
-      
-      
-    }
-
-    .whatsApp{
-        /* display: none; */
-        width: 40%;
-        
-    }
-
-    .whatsApp-second-logo{
-        display: none;
-    }
-
-    .dropdown{
-        display: none;
-    }
-
-    /* .G20{
-    width: 80000%rem;
-    } */
-  }
+}

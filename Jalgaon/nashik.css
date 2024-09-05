@@ -98,38 +98,8 @@
 
 
 @media only screen and (max-width:750px) {
-    /* .helpline {
-      display: none;
-      
-      
-    }
-
-    .whatsApp{
-   
-        width: 40%;
-        
-    }
-
-    .whatsApp-second-logo{
-        display: none;
-    }
-
-    .dropdown{
-        display: none;
-    } */
-
-    .G20{
-    
-    }
-
-    .whatsApp{
-   
-       display: none;
-        
-    }
-
-    .helpline {
-        display: none;
-
+ 
+  .logo-g20-section{
+    display: none;
   }
 }

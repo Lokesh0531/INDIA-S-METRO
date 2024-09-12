@@ -59,6 +59,10 @@
     color: #6351ce;
     font-size: 6rem;
 }
+#lblHeading2{
+    color: #6351ce;
+    font-size: 4rem;
+}
 .boxshadow{
     box-shadow: 10px 10px 1px rgba(red, green, blue, 10);
 }

@@ -29,6 +29,14 @@
     animation: dotAnimation 1.2s linear infinite;
 }
 
+.marque{
+    display: flex;
+    background-color: #3C3C43;
+    line-height: 1.6em;
+    color: #D9CCED;
+    align-items: center;
+  }
+
 /* Animation for each dot */
 @keyframes dotAnimation {
     0% {

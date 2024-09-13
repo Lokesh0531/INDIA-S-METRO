@@ -1,0 +1,15 @@
+.btnown{
+    border:  solid black 2px;
+}
+#btnown1{
+    border: solid black 1px;
+    padding: 4px;
+    border-radius: 5px;
+}
+#btnown1:hover{
+    color: white;
+    background-color: black;
+}
+.vid{
+    border-radius: 50px;
+}

@@ -1,3 +1,6 @@
+#main-content{
+    display: none;
+}
 .btnown{
     border:  solid black 2px;
 }

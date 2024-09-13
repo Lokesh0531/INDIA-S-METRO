@@ -1,5 +1,6 @@
 .body{
-    position: sticky;
+    /* position: sticky; */
+    overflow-x: hidden;
 }
 
 .marque{

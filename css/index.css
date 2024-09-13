@@ -1,3 +1,63 @@
+/* Style for the loading screen */
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensures it is above all other elements */
+}
+
+/* Style for the loading animation container */
+.loading-animation {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+/* Style for individual dots */
+.dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3498db;
+    animation: dotAnimation 1.2s linear infinite;
+}
+
+/* Animation for each dot */
+@keyframes dotAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Positioning each dot around the center */
+.dot1 { top: 0; left: 50%; transform: translate(-50%, -50%); background-color: #e74c3c; animation-delay: 0s; }
+.dot2 { top: 14%; left: 86%; transform: translate(-50%, -50%); background-color: #f39c12; animation-delay: 0.1s; }
+.dot3 { top: 50%; left: 100%; transform: translate(-50%, -50%); background-color: #f1c40f; animation-delay: 0.2s; }
+.dot4 { top: 86%; left: 86%; transform: translate(-50%, -50%); background-color: #2ecc71; animation-delay: 0.3s; }
+.dot5 { top: 100%; left: 50%; transform: translate(-50%, -50%); background-color: #1abc9c; animation-delay: 0.4s; }
+.dot6 { top: 86%; left: 14%; transform: translate(-50%, -50%); background-color: #9b59b6; animation-delay: 0.5s; }
+.dot7 { top: 50%; left: 0; transform: translate(-50%, -50%); background-color: #3498db; animation-delay: 0.6s; }
+.dot8 { top: 14%; left: 14%; transform: translate(-50%, -50%); background-color: #e67e22; animation-delay: 0.7s; }
+
+/* Hide the main content initially */
+#main-content {
+    display: none;
+}
+
+
 .btnown{
     border:  solid black 2px;
 }
